@@ -1,0 +1,15 @@
+.lead__section-title {
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 104%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){ 
+    .lead__section-title {
+        width: 90%;
+        font-size: 12.5vw;
+        line-height: 110%;
+    }
+}
